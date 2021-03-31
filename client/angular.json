@@ -120,6 +120,15 @@
               "devServerTarget": "freecodecamp-projects-client:serve:production"
             }
           }
+        },
+        "deploy": {
+          "builder": "angular-cli-ghpages:deploy",
+          "options": {
+            "baseHref": "https://fcc-projects.nhcarrigan.com/",
+            "cname": "fcc-projects.nhcarrigan.com",
+            "name": "Nicholas Carrigan",
+            "email": "nhcarrigan@gmail.com"
+          }
         }
       }
     }
