@@ -1,0 +1,7 @@
+a {
+  color: var(--primary-color);
+}
+
+.container {
+  text-align: center;
+}

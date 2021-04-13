@@ -4,9 +4,11 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { Router } from '@angular/router';
+import { TributeComponent } from './tribute/tribute.component';
+import { HomeComponent } from './home/home.component';
 
 @NgModule({
-  declarations: [AppComponent],
+  declarations: [AppComponent, TributeComponent, HomeComponent],
   imports: [BrowserModule, AppRoutingModule],
   providers: [
     {
