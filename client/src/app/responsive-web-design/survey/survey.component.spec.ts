@@ -3,7 +3,7 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 
 import { SurveyComponent } from './survey.component';
 
-fdescribe('SurveyComponent', () => {
+describe('SurveyComponent', () => {
   let component: SurveyComponent;
   let fixture: ComponentFixture<SurveyComponent>;
   let compiled: any;
@@ -29,7 +29,7 @@ fdescribe('SurveyComponent', () => {
     expect(component.submitted).toBeFalse();
     expect(component.data).toBeDefined();
     expect(component.surveyForm).toBeDefined();
-  })
+  });
 
   it('should have the #title element (User Story 1)', () => {
     const title = compiled.querySelector('#title');
@@ -75,22 +75,22 @@ fdescribe('SurveyComponent', () => {
 
   it('should have the #number element (User Story 7)', () => {
     const form = compiled.querySelector('#survey-form');
-    const number = form.querySelector('#number');
-    expect(number).toBeTruthy();
-    expect(number.tagName).toBe('INPUT');
+    const numberInput = form.querySelector('#number');
+    expect(numberInput).toBeTruthy();
+    expect(numberInput.tagName).toBe('INPUT');
   });
 
   it('should expect the #number element to take a number (User Story 8)', () => {
     const form = compiled.querySelector('#survey-form');
-    const number = form.querySelector('#number');
-    expect(number.getAttribute('type')).toBe('number');
+    const numberInput = form.querySelector('#number');
+    expect(numberInput.getAttribute('type')).toBe('number');
   });
 
   it('should have a min and max on the #number element', () => {
     const form = compiled.querySelector('#survey-form');
-    const number = form.querySelector('#number');
-    expect(number.getAttribute('min')).toBe('0');
-    expect(number.getAttribute('max')).toBe('100');
+    const numberInput = form.querySelector('#number');
+    expect(numberInput.getAttribute('min')).toBe('0');
+    expect(numberInput.getAttribute('max')).toBe('100');
   });
 
   it('should have labels for the name, email, and number inputs (User Story 10)', () => {
@@ -101,9 +101,9 @@ fdescribe('SurveyComponent', () => {
     const email = form.querySelector('#email-label');
     expect(email).toBeTruthy();
     expect(email.getAttribute('for')).toBe('email');
-    const number = form.querySelector('#number-label');
-    expect(number).toBeTruthy();
-    expect(number.getAttribute('for')).toBe('number');
+    const numberInput = form.querySelector('#number-label');
+    expect(numberInput).toBeTruthy();
+    expect(numberInput.getAttribute('for')).toBe('number');
   });
 
   it('should have placeholders in name, email, and number inputs (User Story 11)', () => {
@@ -114,8 +114,8 @@ fdescribe('SurveyComponent', () => {
     expect(email.getAttribute('placeholder')).toBe(
       'Rosalia.Nightsong@beccalyria.com'
     );
-    const number = form.querySelector('#number');
-    expect(number.getAttribute('placeholder')).toBe('1-100');
+    const numberInput = form.querySelector('#number');
+    expect(numberInput.getAttribute('placeholder')).toBe('1-100');
   });
 
   it('should have a #dropdown element (User Story 12)', () => {
@@ -157,5 +157,5 @@ fdescribe('SurveyComponent', () => {
     compiled = fixture.nativeElement;
     const letter = compiled.querySelector('.letter');
     expect(letter).toBeTruthy();
-  })
+  });
 });

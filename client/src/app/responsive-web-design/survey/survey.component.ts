@@ -44,10 +44,10 @@ export class SurveyComponent implements OnInit {
       return alert('Please pledge your loyalty to our guild.');
     }
     if (!data.role) {
-      return alert('Please select a role!')
+      return alert('Please select a role!');
     }
     if (!data.experience) {
-      return alert('Please indicate your experience level!')
+      return alert('Please indicate your experience level!');
     }
 
     this.submitted = true;
