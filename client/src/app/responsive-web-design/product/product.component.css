@@ -1,0 +1,38 @@
+#header-img {
+  width: 50px;
+}
+
+#nav-bar {
+  height: 50px;
+  display: flex;
+  width: 100vw;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-around;
+  background-color: var(--primary-color);
+  color: var(--primary-background);
+}
+
+#nav-bar > a {
+  color: var(--primary-background);
+}
+
+.title {
+  font-size: 16pt;
+}
+
+#header {
+  position: fixed;
+  margin-top: -50px;
+}
+
+#main {
+  margin-top: 50px;
+  text-align: center;
+}
+
+@media (max-width: 600px) {
+  #video {
+    display: none;
+  }
+}
