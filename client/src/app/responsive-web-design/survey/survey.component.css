@@ -1,0 +1,27 @@
+#main {
+  text-align: center;
+}
+
+form, .letter {
+  max-width: 500px;
+  width: 85vw;
+  margin: auto;
+  background-color: var(--primary-color);
+  color: var(--primary-background);
+  padding: 10px 0px;
+  border-radius: 50px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+button {
+  display: block;
+  margin: auto;
+  background-color: var(--primary-background);
+  color: var(--primary-color);
+  font-size: 16pt;
+  margin-top: 5px;
+}
