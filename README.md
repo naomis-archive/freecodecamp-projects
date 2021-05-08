@@ -2,11 +2,11 @@
 
 Project Description
 
-![](https://img.shields.io/codeclimate/maintainability/nhcarrigan/new-repo-template)
-![](https://img.shields.io/codeclimate/issues/nhcarrigan/new-repo-template)
-![](https://img.shields.io/codeclimate/tech-debt/nhcarrigan/new-repo-template)
-![](https://img.shields.io/lgtm/alerts/github/nhcarrigan/new-repo-template)
-![](https://img.shields.io/lgtm/grade/javascript/github/nhcarrigan/new-repo-template)
+![](https://img.shields.io/codeclimate/maintainability/nhcarrigan/freecodecamp-projects)
+![](https://img.shields.io/codeclimate/issues/nhcarrigan/freecodecamp-projects)
+![](https://img.shields.io/codeclimate/tech-debt/nhcarrigan/freecodecamp-projects)
+![](https://img.shields.io/lgtm/alerts/github/nhcarrigan/freecodecamp-projects)
+![](https://img.shields.io/lgtm/grade/javascript/github/nhcarrigan/freecodecamp-projects)
 
 ## Live Version
 
