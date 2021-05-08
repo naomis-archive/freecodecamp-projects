@@ -4,12 +4,14 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { Router } from '@angular/router';
-import { TributeComponent } from './tribute/tribute.component';
+import { TributeComponent } from './responsive-web-design/tribute/tribute.component';
 import { HomeComponent } from './home/home.component';
+import { SurveyComponent } from './responsive-web-design/survey/survey.component';
+import { ReactiveFormsModule } from '@angular/forms';
 
 @NgModule({
-  declarations: [AppComponent, TributeComponent, HomeComponent],
-  imports: [BrowserModule, AppRoutingModule],
+  declarations: [AppComponent, TributeComponent, HomeComponent, SurveyComponent],
+  imports: [BrowserModule, AppRoutingModule, ReactiveFormsModule],
   providers: [
     {
       provide: ErrorHandler,
