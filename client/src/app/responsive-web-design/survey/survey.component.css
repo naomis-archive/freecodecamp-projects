@@ -25,3 +25,7 @@ button {
   font-size: 16pt;
   margin-top: 5px;
 }
+
+a {
+  color: var(--primary-color);
+}

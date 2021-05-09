@@ -8,9 +8,10 @@ import { TributeComponent } from './responsive-web-design/tribute/tribute.compon
 import { HomeComponent } from './home/home.component';
 import { SurveyComponent } from './responsive-web-design/survey/survey.component';
 import { ReactiveFormsModule } from '@angular/forms';
+import { ProductComponent } from './responsive-web-design/product/product.component';
 
 @NgModule({
-  declarations: [AppComponent, TributeComponent, HomeComponent, SurveyComponent],
+  declarations: [AppComponent, TributeComponent, HomeComponent, SurveyComponent, ProductComponent],
   imports: [BrowserModule, AppRoutingModule, ReactiveFormsModule],
   providers: [
     {
