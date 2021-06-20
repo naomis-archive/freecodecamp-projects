@@ -21,7 +21,7 @@
   },
   "homepage": "https://github.com/nhcarrigan/freecodecamp-projects#readme",
   "devDependencies": {
-    "@types/chai": "4.2.18",
+    "@types/chai": "4.2.19",
     "@types/cors": "2.8.10",
     "@types/express": "4.17.12",
     "@types/mocha": "8.2.2",
