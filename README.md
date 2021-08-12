@@ -1,18 +1,10 @@
-# Project Name
+# freeCodeCamp Projects
 
-Project Description
-
-![](https://img.shields.io/codeclimate/maintainability/nhcarrigan/freecodecamp-projects)
-![](https://img.shields.io/codeclimate/issues/nhcarrigan/freecodecamp-projects)
-![](https://img.shields.io/codeclimate/tech-debt/nhcarrigan/freecodecamp-projects)
-![](https://img.shields.io/lgtm/alerts/github/nhcarrigan/freecodecamp-projects)
-![](https://img.shields.io/lgtm/grade/javascript/github/nhcarrigan/freecodecamp-projects)
+These are new and improved versions of the freeCodeCamp certification projects.
 
 ## Live Version
 
-This page is not yet deployed.
-
-<!--This page is currently deployed. [View the live website.]()-->
+This page is currently deployed. [View the live website.](https://fcc-projects.nhcarrigan.com)
 
 ## Feedback and Bugs
 
