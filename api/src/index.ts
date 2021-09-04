@@ -1,9 +1,11 @@
-import express from "express";
 import { readFile } from "fs/promises";
 import http from "http";
 import https from "https";
-import * as Sentry from "@sentry/node";
+
 import { RewriteFrames } from "@sentry/integrations";
+import * as Sentry from "@sentry/node";
+import express from "express";
+
 import { logHandler } from "./utils/logHandler";
 
 Sentry.init({
