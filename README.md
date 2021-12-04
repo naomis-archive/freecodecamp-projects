@@ -4,7 +4,7 @@ These are new and improved versions of the freeCodeCamp certification projects.
 
 ## Live Version
 
-This page is currently deployed. [View the live website.](https://fcc-projects.nhcarrigan.com)
+This project is archived and is no longer live.
 
 ## Feedback and Bugs
 
